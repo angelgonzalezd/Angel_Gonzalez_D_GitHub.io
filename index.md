@@ -9,7 +9,6 @@ You can use the [editor on GitHub](https://github.com/angelgonzalezd/angel_gonza
   agent-id="73ca26bb-6e2f-4557-9446-be04eb064a3c"
   language-code="es"
 ></df-messenger>
-
 <div>Teachable Machine Image Model</div>
 <button type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
@@ -21,7 +20,7 @@ You can use the [editor on GitHub](https://github.com/angelgonzalezd/angel_gonza
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "./my_model/";
+    const URL = "https://teachablemachine.withgoogle.com/models/WfxNbvCaW/";
 
     let model, webcam, labelContainer, maxPredictions;
 
